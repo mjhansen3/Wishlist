@@ -9,6 +9,7 @@ target 'Wishlist' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
   target 'WishlistTests' do
     inherit! :search_paths
